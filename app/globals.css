@@ -1,0 +1,50 @@
+@import 'tailwindcss';
+
+@layer components {
+  .app-container {
+    @apply mx-auto px-4 sm:px-6 lg:px-8;
+    max-width: 15360px; /* Adjust as needed */
+  }
+
+  .btn-bg {
+    @apply bg-[#DD4B4B]
+  }
+
+  .btn-bg-hover {
+    @apply hover:bg-[#DD4B4B];
+  }
+
+  .btn-text {
+    @apply text-[#DD4B4B]
+  }
+  .title-text{
+    @apply text-[#002147]
+  }
+}
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    /* --foreground: #ededed; */
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  /* font-family: Arial, Helvetica, sans-serif; */
+}
+
+
