@@ -8,7 +8,7 @@ import  logo  from '../../../public/home-image/asset 0.png'
 
 export default function Footer() {
   return (
-    <footer className=" text-hd-navy pt-16 pb-8  border-t-2 border-[#d48888] mt-8 w-full">
+    <footer className=" text-hd-navy pt-16 pb-8  border-t-2 border-[#d48888] mt-8 w-full px-2">
       <div className="">
 
         {/* Top */}

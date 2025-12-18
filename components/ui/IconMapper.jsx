@@ -1,6 +1,7 @@
-// src/components/ui/IconMapper.jsx
-
 import {
+  FaSearch,
+  FaGraduationCap,
+  FaBuilding,
   FaUsers,
   FaBolt,
   FaCertificate,
@@ -13,45 +14,52 @@ import {
   FaWhatsapp,
   FaLinkedinIn,
   FaEnvelope,
+  FaCalendarAlt,   // NEW
+  FaServer,        // NEW
+  FaUsersCog,      // NEW
+  FaHandshake,
+       // REQUIRED for Contact Section
 } from "react-icons/fa";
-import { HiChatBubbleLeftRight } from "react-icons/hi2";
 
-/**
- * Central icon registry
- * ---------------------
- * Rule:
- * - key = UI agnostic (camelCase)
- * - value = React Icon Component
- */
+import { HiChatBubbleLeftRight, HiOutlineBuildingOffice } from "react-icons/hi2";
+
 const ICON_MAP = {
-  // Features
+  // ---- Services Icons ----
+  search: FaSearch,
+  graduation: FaGraduationCap,
+  building: HiOutlineBuildingOffice,
+
+  // ---- Event & IT & HR (NEW) ----
+  calendar: FaCalendarAlt,
+  server: FaServer,
+  usersCog: FaUsersCog,
+
+  // ---- Contact Section Icon (IMPORTANT) ----
+  handshake: FaHandshake,
+
+  // ---- Features ----
   users: FaUsers,
   bolt: FaBolt,
   certificate: FaCertificate,
   chartLine: FaChartLine,
 
-  // Stats
+  // ---- Stats ----
   stopwatch: FaStopwatch,
   thumbsUp: FaThumbsUp,
 
-  // Recruitment Process
+  // ---- Recruitment Process ----
   chat: HiChatBubbleLeftRight,
   check: FaCheckCircle,
   plusUser: FaUserPlus,
 
-
-  // icon
+  // ---- Social Icons ----
   facebook: FaFacebookF,
   whatsapp: FaWhatsapp,
   linkedin: FaLinkedinIn,
   email: FaEnvelope,
 };
 
-export default function IconMapper({
-  name,
-  className = "",
-  size,
-}) {
+export default function IconMapper({ name, className = "", size }) {
   const IconComponent = ICON_MAP[name];
 
   if (!IconComponent) {
