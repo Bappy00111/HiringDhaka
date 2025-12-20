@@ -9,6 +9,7 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "aos": "^2.3.4",
     "libphonenumber-js": "^1.12.31",
     "next": "15.5.9",
     "react": "19.1.0",
