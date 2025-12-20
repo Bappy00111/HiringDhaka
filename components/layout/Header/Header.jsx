@@ -72,7 +72,7 @@ export default function Navbar() {
             <button
               type="button"
               onClick={() => router.push("/build-your-team")}
-              className="ml-2 rounded-md btn-bg px-6 py-2 text-base font-semibold text-white shadow-md transition-colors hover:bg-slate-900 hover:text-white lg:text-lg"
+              className="ml-2 rounded-md btn-bg cursor-pointer px-6 py-2 text-base font-semibold text-white shadow-md transition-colors hover:bg-slate-900 hover:text-white lg:text-lg"
             >
               Build Your Team
             </button>
@@ -80,7 +80,7 @@ export default function Navbar() {
             <button
               type="button"
               onClick={() => router.push("/join-community")}
-              className="ml-2 rounded-md bg-slate-900 px-6 py-2 text-base font-semibold text-white shadow-md transition-colors hover:bg-[#DD4B4B] hover:text-white lg:text-lg"
+              className="ml-2 rounded-md bg-slate-900 cursor-pointer px-6 py-2 text-base font-semibold text-white shadow-md transition-colors hover:bg-[#DD4B4B] hover:text-white lg:text-lg"
             >
               Join Talent Network
             </button>
@@ -165,7 +165,7 @@ export default function Navbar() {
           <button
             type="button"
             onClick={() => router.push("/build-your-team")}
-            className="flex w-full items-center justify-center gap-2 rounded-md btn-bg px-3 py-2.5 text-base font-semibold text-white transition-colors hover:bg-slate-900 hover:text-white"
+            className="flex w-full items-center cursor-pointer justify-center gap-2 rounded-md btn-bg px-3 py-2.5 text-base font-semibold text-white transition-colors hover:bg-slate-900 hover:text-white"
           >
             Build Your Team
           </button>
@@ -173,7 +173,7 @@ export default function Navbar() {
           <button
             type="button"
             onClick={() => router.push("/join-community")}
-            className="flex w-full items-center justify-center gap-2 rounded-md bg-slate-900 px-3 py-2.5 text-base font-semibold text-white transition-colors hover:bg-[#DD4B4B] hover:text-white"
+            className="flex w-full items-center cursor-pointer justify-center gap-2 rounded-md bg-slate-900 px-3 py-2.5 text-base font-semibold text-white transition-colors hover:bg-[#DD4B4B] hover:text-white"
           >
             Join Talent Network
           </button>
