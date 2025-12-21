@@ -22,9 +22,9 @@ export default function TestimonialsSection() {
   return (
     <section
       id="testimonials"
-      className="py-16 sm:py-20 lg:py-24 bg-[#002147] w-full"
+      className="bg-white px-4 pb-8"
     >
-      <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="app-container py-16 sm:py-20 lg:py-24 bg-[#002147] w-full">
         <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-white mb-12 sm:mb-16 text-center">
           What Our Clients Say
         </h2>

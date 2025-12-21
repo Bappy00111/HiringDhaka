@@ -22,7 +22,7 @@ export default function Navbar() {
 
   return (
     <nav
-      className="fixed z-50 w-full border-b-2 border-rose-500/20 bg-white py-4 shadow-sm transition-all duration-300"
+      className=" fixed z-50 w-full border-b-2 border-rose-500/20 bg-white py-4 shadow-sm transition-all duration-300"
       aria-label="Main Navigation"
     >
       <div className="app-container">

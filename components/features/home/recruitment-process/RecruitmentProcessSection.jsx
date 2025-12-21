@@ -6,7 +6,7 @@ import { RECRUITMENT_PROCESS_STEPS } from "@/data/recruitment-process/process.da
 
 export default function RecruitmentProcessSection() {
   return (
-    <section className="py-16 sm:py-20 lg:py-24 bg-gradient-to-b from-white via-blue-50 to-white">
+    <section className="app-container py-16 sm:py-20 lg:py-24 bg-gradient-to-b from-white via-blue-50 to-white">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <SectionHeader />
 

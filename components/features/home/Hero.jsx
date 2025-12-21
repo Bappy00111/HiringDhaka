@@ -168,7 +168,7 @@ export default function Hero() {
 
   return (
     <section
-      className="relative overflow-hidden bg-white pb-12 sm:pb-16 lg:pb-20"
+      className="app-container relative overflow-hidden bg-white pb-12 sm:pb-16 lg:pb-20"
       data-aos="fade-up"
       data-aos-duration="3000"
       data-aos-easing="ease-out-cubic"

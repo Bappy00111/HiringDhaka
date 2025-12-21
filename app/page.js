@@ -6,7 +6,7 @@ import TestimonialsSection from '@/components/features/home/testimonials/Testimo
 
 export default function Home() {
   return (
-    <div className="app-container">
+    <div className="">
       <Hero />
       <FeaturesSection />
       <RecruitmentProcessSection />

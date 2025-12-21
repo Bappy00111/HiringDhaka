@@ -10,9 +10,9 @@ export default function FeaturesSection() {
   return (
     <section
       id="features"
-      className="py-16 sm:py-20 lg:py-24  w-full  bg-[#002147]"
+      className="bg-white px-4"
     >
-      <div className=" px-4 sm:px-6 lg:px-8 ">
+      <div className="app-container py-16 sm:py-20 lg:py-24   bg-[#002147]">
 
         {/* Header */}
         <SectionHeader />
